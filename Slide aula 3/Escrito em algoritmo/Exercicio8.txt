@@ -1,0 +1,19 @@
+Algoritmo Bonus;
+
+Var totalVendido, comissao, salario: real;
+
+Inicio 
+Escreva("Entre com o valor do total vendido");
+leia(totalVendido);
+
+Se(totalVendido > 2000) entao
+    
+    comissao <- totalVendido * (10/100);
+    salario <- 1200 + comissao;
+    Escreva("A comissão é de R$",comissao);
+    Escreva("O tota do salário é R$",salario)
+Senao 
+    
+    Escreva("Você não vendeu o suficiente para receber comissão");
+Fimse;
+Fim.

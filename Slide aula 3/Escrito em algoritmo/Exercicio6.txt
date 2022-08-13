@@ -1,0 +1,36 @@
+Algoritmo Codigo;
+
+Var codigo: inteiro;
+
+Inicio
+Escreva("Entre com o código do produto:");
+Leia(codigo);
+
+Escolha(codigo)
+
+    Caso "1" faça
+        Escreva("Alimento não perecível");
+    Caso "2" faça
+        Escreva("Alimento perecível");
+    Caso "3" faça
+        Escreva("Alimento perecível");
+    Caso "4" faça
+        Escreva("Alimento perecível");
+    Caso "5" faça
+        Escreva("Vestuário");
+    Caso "6" faça
+        Escreva("Vestuário");
+    Caso "7" faça
+        Escreva("Higiene pessoal");
+    Caso "8" faça
+        Escreva("Utensílios domésticos");
+    Caso "9" faça
+        Escreva("Utensílios domésticos");
+    Caso "10" faça
+        Escreva("Utensílios domésticos");
+  
+    Caso contrario 
+        Escreva("Código inválido!");
+
+    Fimescolha;
+Fim.

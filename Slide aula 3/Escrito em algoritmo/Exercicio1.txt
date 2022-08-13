@@ -1,0 +1,21 @@
+Algoritmo Media;
+
+Var p1, p2, media: real;
+
+Inicio
+Escreva("Entre com a nota da P1:");
+Leia(p1);
+Escreva("Entre com a nota da P2:");
+Leia(p2);
+
+media <- (p1 + p2) / 2;
+
+Se(media >= 7) entao
+
+    Escreva("Aluno APROVADO! A média foi: ",media)
+Senao 
+
+    Escreva("Aluno REPROVADO! A média foi: ",media);
+
+Fimse;
+Fim.

@@ -1,0 +1,24 @@
+Algoritmo Bonus;
+
+Var salarioA, salarioN, bonus: real;
+    tempo: inteiro;
+
+Inicio
+Escreva("Entre com o tempo de serviço:");
+Leia(tempo);
+Escreva("Entre com o salário atual:");
+Leia(salarioA);
+
+Se(tempo >= 5) entao
+
+    salarioN <- salarioA + (salarioA * (20/100));
+    bonus <- salarioN - salarioA
+Senao
+
+    salarioN <- salarioA + (salarioA * (10/100));
+    bonus <- salarioN - salarioA;
+Fimse;
+
+Escreva("O bônus é de R$",bonus);
+Escreva("O novo salário é R$",salarioN);
+Fim.

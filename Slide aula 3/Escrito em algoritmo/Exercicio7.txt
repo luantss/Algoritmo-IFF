@@ -1,0 +1,16 @@
+Algoritmo Par;
+
+Var num: inteiro;
+
+inicio
+Escreva("Entre com um número inteiro:");
+Leia(num);
+
+Se(num mod 2)=0 entao 
+
+    Escreva("O número ",num," é par!")
+Senao
+
+    Escreva("O número ",num," é ímpar!");
+Fimse;
+Fim.

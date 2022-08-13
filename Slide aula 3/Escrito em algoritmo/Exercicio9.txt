@@ -1,0 +1,32 @@
+Algoritmo triângulo;
+
+Var lado1, lado2, lado3: real;
+
+Inicio
+Escreva("Entre com o valor do primeiro lado:");
+Leia(lado1);
+Escreva("Entre com o valor do segundo lado:");
+Leia(lado2);
+Escreva("Entre com o valor do terceiro lado:");
+Leia(lado3);
+
+Se(lado1 = lado2) entao 
+
+    Se(lado1 = lado3) entao
+
+        Escreva("Esse triângulo é equilátero!")
+    Senao
+
+        Escreva("Esse triângulo é isósceles!");
+    Fimse
+Senao
+
+    Se(lado2 = lado3) entao
+
+        Escreva("Esse triângulo é isósceles!")
+    Senao
+
+        Escreva("Esse triângulo é escaleno!");
+    Fimse;
+Fimse;
+Fim.

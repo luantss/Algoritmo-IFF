@@ -1,0 +1,18 @@
+Algoritmo Idade;
+
+Var idade, aux: inteiro;
+
+Inicio
+Escreva("Entre com a idade do usuário:")
+Leia(idade);
+
+Se(idade >= 18) entao
+
+    Escreva("Maior de idade!")
+Senao 
+
+    aux <- 18 - idade;
+    Escreva("Menor de idade! Faltam ",aux," para ser de maior");
+    
+Fimse;
+Fim.

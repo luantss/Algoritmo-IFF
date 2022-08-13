@@ -1,0 +1,24 @@
+Algoritmo Empréstimo;
+
+Var valorEmp, salarioSlc, totalParcela, percentS: real;
+    numParcela: inteiro;
+
+Inicio
+Escreva("Entre com o valor do empréstimo:");
+Leia(valorEmp);
+Escreva("Entre com o número de parcelas:");
+Leia(numParcela);
+Escreva("Entre com o salário do solicitante:");
+Leia(salarioSlc);
+
+totalParcela <- valorEmp / numParcela;
+percentS <- salarioSlc * (30/100);
+
+Se(totalParcela >= percentS) entao
+    
+    Escreva("Empréstimo recusado!")
+Senao 
+
+    Escreva("Empréstimo aceito!");
+Fimse;
+Fim.
